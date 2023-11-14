@@ -1,0 +1,302 @@
+@import 'variable.scss';
+*{
+    margin:0px 20px;
+    font-family: $fontstyle1;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    font-size: $police;
+}
+header{
+    display: $inline;
+    justify-content: $space;
+    margin: $margin;
+    .left{
+        display: $inline;
+    }
+    .right{
+        @extend.left;
+    }
+}
+nav{
+    margin-top: 10px;
+    ul{
+        justify-content: $space;
+        .logo1{
+            margin-left: 100px;
+        }
+        .menu{
+            display: $inline;
+            float: right;
+            margin-top: -45px;
+            margin-right: $margd + 60px;
+            li{
+                a{
+                    color: rgba(0, 0, 0, 0.555);
+                    margin: 0 25px;
+                    &:hover{
+                        color: $primarycolor;
+                        font-style: oblique;
+                    }
+                }
+            }
+        }    
+    }
+}
+.bg_img1{
+    background: rgba(112, 89, 12, 0.719);
+    padding: 140px;
+    text-align: center;
+    font-size: 30px;
+    h1{
+        font-family: $fontstyle2;
+        font-size: $police + 30px;
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    button{
+        width: 220px;
+        height: 60px;
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: none;
+        color: rgba(88, 88, 136, 0.747);
+        background-color: rgba(240, 182, 161, 0.486);
+        &:hover{
+            background-color: rgb(241, 189, 119);
+            font-style: italic;
+        }
+    }
+}
+.contenu1{
+    padding: 20px 0;
+    .text1{
+        background-color: rgba(183, 197, 197, 0.753);
+        margin-top: 150px;
+        margin-left: 15%;
+        padding: 20px 0;
+        width: $width1 - 50%;
+    }
+    .img1{
+        margin-left: 50%;
+        margin-top: -25%;
+    }
+}
+.bg_img2{
+    @extend.bg_img1;
+    font-size: 20px;
+    padding: 58px;
+    margin-top: 1.9lh;
+}
+.text2{
+    @extend.bg_img2;
+    background: none;
+    margin-top: $margd - 30px;
+    h3{
+        font-family: $fontstyle2;
+    }
+}
+.contenu2{
+    display: flex;
+    margin: 0cm 2cm 2cm 5cm;
+    .riz1{
+        background: $primarycolor;
+        padding: 100px 0px;
+        width: $width2 + 10px;
+        margin-right: -0.3cm;
+        h3{
+            background: rgba(22, 21, 21, 0.411);
+            text-align: center;
+            width: $width2 + 10px;
+            margin-left: 0px;
+            font-weight: 1000;
+            font-size: 40px;
+            font-family: $fontstyle2;
+            color: $secondcolor;
+        }
+    }
+    .sucre1{
+        @extend.riz1;
+    }
+    .huile1{
+        @extend.sucre1;
+    }
+    .farine1{
+        @extend.riz1;
+    }
+}
+.text3{
+    text-align: center;
+    margin-top: -2cm;
+    padding: 30px;
+    button{
+        font-size: 20Px;
+        width: $width2 + 50px;
+        height: $heigth - 20px;
+        background:$botcolor;
+        border: none;
+        border-radius: 2px;
+        margin-bottom: 25px;
+        &:hover{
+            background: rgba(235, 132, 132, 0.479);
+        }
+    }
+    h3{
+        font-size: 40px;
+        color: $secondcolor;
+    }
+    p{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+.contenu3{
+    display: flex;
+    width: 900px;
+    margin-left: $width2 - 20px;
+
+    .riz2{
+        width: $width2 + 81px;
+        padding: 0px;
+        margin: 0px 10px;
+        .img{
+            margin-left: -20.1px;
+        }
+        .text{
+            padding: 0px;
+            width: $width2 + 81px;
+            margin-top: -0.1cm;
+            margin-left: -1px;
+            text-align: left;
+            background-color:$bgcolor;
+            h4{
+                color: $secondcolor;
+            }
+            p{
+                font-size: small;
+            }
+            button{
+                font-size: medium;
+                color: rgb(243, 159, 2);
+                margin-left: 35%;
+                border: none;
+                background: none;
+                padding: 10px;
+            }
+        }
+    }   
+    .huile2{
+        @extend.riz2;
+    }
+    .farine2{
+        @extend.riz2;
+    }
+}
+.button{
+    text-align: center;
+    margin: 1cm 0cm;
+    button{
+        background: $botcolor;
+        border: none;
+        width: $width2 + 50px;
+        height: $heigth - 20px;
+        border-radius: 2px;
+        font-size: 20Px;
+        &:hover{
+            box-shadow: 0px 0px 20px rgb(223, 25, 58);
+        }
+    } 
+}
+.bg_img3{
+    @extend.bg_img2;
+}
+.contenufot{
+    background: $bgcolor;
+    margin-top: 31px;
+    padding-bottom: 50px;
+    .text4{
+        @extend.bg_img2;
+        background: none;
+        margin-top: -30px;
+        h3{
+            font-size: 40px;
+            color: $secondcolor;
+            margin-top: -35px;
+        }
+        p{
+            font-size: small;
+            margin-top: 4px;
+        }
+    }
+    .contenu4{
+        display: flex;
+        margin-left: 140px;
+        .text5{
+            margin-right: -30px;
+            h6{
+                color:$secondcolor;
+                font-size: medium;
+                font-weight: bolder;
+            }
+            p{
+                font-size: small;
+                margin-top: 15px;
+            }
+        }
+        .img2{
+            margin-top: -20px;
+        }
+    }
+}
+.contenu5{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .text5{
+        margin-left: 150px;
+        .logo2{
+            border-radius: 120px;
+        }
+        h4{
+            color: $secondcolor;
+        }
+        p{
+            font-size: small;
+            font-weight: bolder;
+            color: $secondcolor;
+        }
+    }
+    .inscri{
+        margin-top: 50Px;
+        h3{
+            font-family: $fontstyle1;
+            color: rgba(28, 28, 71, 0.795);
+        }
+        #complete{
+            height: 25px;
+            width: 230px;
+            border: none;
+            background: rgba(48, 47, 47, 0.151);
+        }
+        button{
+            margin-left: -26.5px;
+            border: none;
+            background: $botcolor;
+            height: 27px;
+            width: 100px;
+            &:hover{
+                background: rgb(243, 196, 143);
+            }
+        }
+    }
+}
+footer{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: medium;
+    color: $secondcolor;
+}

@@ -1,0 +1,287 @@
+* {
+  margin: 0px 20px;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+header .left, header .right {
+  display: flex;
+}
+nav {
+  margin-top: 10px;
+}
+nav ul {
+  justify-content: space-between;
+}
+nav ul .logo1 {
+  margin-left: 100px;
+}
+nav ul .menu {
+  display: flex;
+  float: right;
+  margin-top: -45px;
+  margin-right: 80px;
+}
+nav ul .menu li a {
+  color: rgba(0, 0, 0, 0.555);
+  margin: 0 25px;
+}
+nav ul .menu li a:hover {
+  color: rgba(112, 89, 12, 0.719);
+  font-style: oblique;
+}
+
+.bg_img1, .bg_img2, .contenufot .text4, .bg_img3, .text2 {
+  background: rgba(112, 89, 12, 0.719);
+  padding: 140px;
+  text-align: center;
+  font-size: 30px;
+}
+.bg_img1 h1, .bg_img2 h1, .contenufot .text4 h1, .bg_img3 h1, .text2 h1 {
+  font-family: cursive;
+  font-size: 50px;
+}
+.bg_img1 p, .bg_img2 p, .contenufot .text4 p, .bg_img3 p, .text2 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg_img1 button, .bg_img2 button, .contenufot .text4 button, .bg_img3 button, .text2 button {
+  width: 220px;
+  height: 60px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  color: rgba(88, 88, 136, 0.747);
+  background-color: rgba(240, 182, 161, 0.486);
+}
+.bg_img1 button:hover, .bg_img2 button:hover, .contenufot .text4 button:hover, .bg_img3 button:hover, .text2 button:hover {
+  background-color: rgb(241, 189, 119);
+  font-style: italic;
+}
+
+.contenu1 {
+  padding: 20px 0;
+}
+.contenu1 .text1 {
+  background-color: rgba(183, 197, 197, 0.753);
+  margin-top: 150px;
+  margin-left: 15%;
+  padding: 20px 0;
+  width: 50%;
+}
+.contenu1 .img1 {
+  margin-left: 50%;
+  margin-top: -25%;
+}
+
+.bg_img2, .contenufot .text4, .bg_img3, .text2 {
+  font-size: 20px;
+  padding: 58px;
+  margin-top: 1.9lh;
+}
+
+.text2 {
+  background: none;
+  margin-top: -10px;
+}
+.text2 h3 {
+  font-family: cursive;
+}
+
+.contenu2 {
+  display: flex;
+  margin: 0cm 2cm 2cm 5cm;
+}
+.contenu2 .riz1, .contenu2 .farine1, .contenu2 .sucre1, .contenu2 .huile1 {
+  background: rgba(112, 89, 12, 0.719);
+  padding: 100px 0px;
+  width: 210px;
+  margin-right: -0.3cm;
+}
+.contenu2 .riz1 h3, .contenu2 .farine1 h3, .contenu2 .sucre1 h3, .contenu2 .huile1 h3 {
+  background: rgba(22, 21, 21, 0.411);
+  text-align: center;
+  width: 210px;
+  margin-left: 0px;
+  font-weight: 1000;
+  font-size: 40px;
+  font-family: cursive;
+  color: rgba(20, 20, 87, 0.678);
+}
+.text3 {
+  text-align: center;
+  margin-top: -2cm;
+  padding: 30px;
+}
+.text3 button {
+  font-size: 20Px;
+  width: 250px;
+  height: 40px;
+  background: rgba(231, 141, 106, 0.671);
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 25px;
+}
+.text3 button:hover {
+  background: rgba(235, 132, 132, 0.479);
+}
+.text3 h3 {
+  font-size: 40px;
+  color: rgba(20, 20, 87, 0.678);
+}
+.text3 p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contenu3 {
+  display: flex;
+  width: 900px;
+  margin-left: 180px;
+}
+.contenu3 .riz2, .contenu3 .farine2, .contenu3 .huile2 {
+  width: 281px;
+  padding: 0px;
+  margin: 0px 10px;
+}
+.contenu3 .riz2 .img, .contenu3 .farine2 .img, .contenu3 .huile2 .img {
+  margin-left: -20.1px;
+}
+.contenu3 .riz2 .text, .contenu3 .farine2 .text, .contenu3 .huile2 .text {
+  padding: 0px;
+  width: 281px;
+  margin-top: -0.1cm;
+  margin-left: -1px;
+  text-align: left;
+  background-color: rgba(183, 197, 197, 0.664);
+}
+.contenu3 .riz2 .text h4, .contenu3 .farine2 .text h4, .contenu3 .huile2 .text h4 {
+  color: rgba(20, 20, 87, 0.678);
+}
+.contenu3 .riz2 .text p, .contenu3 .farine2 .text p, .contenu3 .huile2 .text p {
+  font-size: small;
+}
+.contenu3 .riz2 .text button, .contenu3 .farine2 .text button, .contenu3 .huile2 .text button {
+  font-size: medium;
+  color: rgb(243, 159, 2);
+  margin-left: 35%;
+  border: none;
+  background: none;
+  padding: 10px;
+}
+.button {
+  text-align: center;
+  margin: 1cm 0cm;
+}
+.button button {
+  background: rgba(231, 141, 106, 0.671);
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 20Px;
+}
+.button button:hover {
+  box-shadow: 0px 0px 20px rgb(223, 25, 58);
+}
+
+.contenufot {
+  background: rgba(183, 197, 197, 0.664);
+  margin-top: 31px;
+  padding-bottom: 50px;
+}
+.contenufot .text4 {
+  background: none;
+  margin-top: -30px;
+}
+.contenufot .text4 h3 {
+  font-size: 40px;
+  color: rgba(20, 20, 87, 0.678);
+  margin-top: -35px;
+}
+.contenufot .text4 p {
+  font-size: small;
+  margin-top: 4px;
+}
+.contenufot .contenu4 {
+  display: flex;
+  margin-left: 140px;
+}
+.contenufot .contenu4 .text5 {
+  margin-right: -30px;
+}
+.contenufot .contenu4 .text5 h6 {
+  color: rgba(20, 20, 87, 0.678);
+  font-size: medium;
+  font-weight: bolder;
+}
+.contenufot .contenu4 .text5 p {
+  font-size: small;
+  margin-top: 15px;
+}
+.contenufot .contenu4 .img2 {
+  margin-top: -20px;
+}
+
+.contenu5 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contenu5 .text5 {
+  margin-left: 150px;
+}
+.contenu5 .text5 .logo2 {
+  border-radius: 120px;
+}
+.contenu5 .text5 h4 {
+  color: rgba(20, 20, 87, 0.678);
+}
+.contenu5 .text5 p {
+  font-size: small;
+  font-weight: bolder;
+  color: rgba(20, 20, 87, 0.678);
+}
+.contenu5 .inscri {
+  margin-top: 50Px;
+}
+.contenu5 .inscri h3 {
+  font-family: sans-serif;
+  color: rgba(28, 28, 71, 0.795);
+}
+.contenu5 .inscri #complete {
+  height: 25px;
+  width: 230px;
+  border: none;
+  background: rgba(48, 47, 47, 0.151);
+}
+.contenu5 .inscri button {
+  margin-left: -26.5px;
+  border: none;
+  background: rgba(231, 141, 106, 0.671);
+  height: 27px;
+  width: 100px;
+}
+.contenu5 .inscri button:hover {
+  background: rgb(243, 196, 143);
+}
+
+footer {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: medium;
+  color: rgba(20, 20, 87, 0.678);
+}
+
+/*# sourceMappingURL=style.css.map */
